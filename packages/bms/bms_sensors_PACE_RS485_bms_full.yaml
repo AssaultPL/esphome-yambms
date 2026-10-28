@@ -322,7 +322,7 @@ sensor:
     name: "power"
     address: 0
     register_type: holding
-    value_type: U_WORD
+    value_type: U_DWORD
     register_count: 2
     response_size: 4
     unit_of_measurement: "W"
@@ -707,7 +707,7 @@ sensor:
     name: "delta cell voltage"
     address: 15
     register_type: holding
-    value_type: U_WORD
+    value_type: RAW
     register_count: 16
     response_size: 32
     unit_of_measurement: "V"
